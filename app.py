@@ -10,23 +10,23 @@ def home():
 def about():
     return render_template("about.html")
 
-@app.route("/projects")
+@app.route("/projects/")
 def projects():
     return render_template("projects.html")
 
-@app.route("/ecommerce")
+@app.route("/projects/ecommerce")
 def ecommerce():
     return render_template("ecommerce.html")
 
-@app.route("/blog")
+@app.route("/projects/blog")
 def blog():
     return render_template("blog.html")
 
-@app.route("/multi")
+@app.route("/projects/multi-todo")
 def multi():
     return render_template("multi.html")
 
-@app.route("/todo")
+@app.route("/projects/todo")
 def todo():
     return render_template("todo.html")
 
